@@ -1,0 +1,41 @@
+@import 'nord.css'
+
+body {
+    background-color: #f1f1f1;
+}
+
+header{
+    background-color: #838383;
+    height: 50px;
+    box-align: center;
+    width: 100%;
+    position: relative;
+}
+
+span{
+    color: #5f5f5f;
+}
+
+nav{
+  color: nord;
+  background-color: aqua;
+  width: 250px;
+}
+
+.menuButton {
+  background-color: #4c566a;
+  height: 100%;
+  width: 25%;
+  position: relative;
+  border: black;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.menuButton:hover{
+    background-color: green;
+}
+
+article{
+  position: relative;
+}
